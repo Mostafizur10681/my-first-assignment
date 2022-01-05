@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    padding: 5%;
+    padding: 7%;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
 }
-.banner-part{
+.parent-part{
     display: flex;
     margin-bottom: 150px;
 }
@@ -31,15 +31,13 @@ body{
     border: 2px solid;
     border-radius: 10px;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-top: 10px;
     
 }
-.second-part{
-    display: flex;
-    margin-bottom: 150px;
-}
+
 .mission{
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: bolder;
 }
@@ -48,10 +46,10 @@ body{
 }
 .mission-part{
     width: 30%;
+    background-color:rgb(177, 45, 159) ;
     border: 2px solid gray;
     border-radius: 10px;
-    background-color:rgb(177, 45, 159) ;
-    margin-left: 30px;
+    margin: 0 15px;
     padding: 10px 15px;
 }
 .mission-img img{
@@ -59,8 +57,10 @@ body{
 }
 .vision-part{
     width: 30%;
+    background-color:rgb(116, 116, 236) ;
+    border: 2px solid gray;
     border-radius: 10px;
-    margin-left: 30px;
+    margin: 0 15px;
     padding: 10px 15px;
     background-color:rgb(116, 116, 236) ;
 }
@@ -68,6 +68,33 @@ body{
     width: 30%;
     border-radius: 10px;
     background-color: burlywood;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 0 15px;
     padding: 10px 15px;
-    margin-left: 30px;
+}
+.develop{
+    background-image: url(Image/illustrator/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:45 left;
+    background-size: 10%;
+}
+.develop-img img{
+    width: 80%;
+    margin-right: 30px;
+}
+.develop-item h1{
+    size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.global-img img{
+    width: 85%;
+    margin-left: 55px;
+}
+.global{
+    background-image: url(Image/illustrator/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 15%;
 }
