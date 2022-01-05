@@ -34,3 +34,40 @@ body{
     margin-bottom: 10px;
     
 }
+.second-part{
+    display: flex;
+    margin-bottom: 150px;
+}
+.mission{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+#mission22{
+    color: rgb(67, 15, 189);
+}
+.mission-part{
+    width: 30%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color:rgb(177, 45, 159) ;
+    margin-left: 30px;
+    padding: 10px 15px;
+}
+.mission-img img{
+    width: 50%;
+}
+.vision-part{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px 15px;
+    background-color:rgb(116, 116, 236) ;
+}
+.goal-part{
+    width: 30%;
+    border-radius: 10px;
+    background-color: burlywood;
+    padding: 10px 15px;
+    margin-left: 30px;
+}
