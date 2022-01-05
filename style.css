@@ -1,12 +1,12 @@
 body{
     margin: 0;
-    padding: 7%;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
 }
 .parent-part{
     display: flex;
+    padding: 5%;
     margin-bottom: 150px;
 }
 .heading-pic{
@@ -41,7 +41,7 @@ body{
     text-align: center;
     font-weight: bolder;
 }
-#mission22{
+.mission22{
     color: rgb(67, 15, 189);
 }
 .mission-part{
@@ -97,4 +97,11 @@ body{
     background-position: right;
     background-repeat: no-repeat;
     background-size: 15%;
+}
+.last-part{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    padding: 10px;
 }
