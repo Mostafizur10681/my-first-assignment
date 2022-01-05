@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 5%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-part{
+    display: flex;
+    margin-bottom: 150px;
+}
+.heading-pic{
+    width: 70%;
+}
+.half-width{
+    width: 50%;
+}
+.banner-heading{
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    border-left: 5px solid;
+    border-color: rgb(165, 28, 189);
+}
+.mission-heading{
+    color: rgb(67, 15, 189);
+}
+.btn-link{
+    background-color: rgb(165, 28, 189);
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
