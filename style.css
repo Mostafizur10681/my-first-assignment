@@ -109,10 +109,10 @@ h3{
     background-size: 15%;
 }
 .form-item{
-    background-color: rgb(67, 15, 189);
+    border: 1px solid purple;
     width: 95%;
     height: 40px;
-    color: white;
+    color: black;
 }
 .comments{
     height: 200px;
