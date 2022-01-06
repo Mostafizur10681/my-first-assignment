@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
@@ -7,15 +7,16 @@ body{
 .parent-part{
     display: flex;
     padding: 5%;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .heading-pic{
     width: 70%;
 }
 .half-width{
     width: 50%;
+    margin-left: 25px;
 }
-.banner-heading{
+#banner-heading{
     font-size: 40px;
     font-family: 'Lobster Two', cursive;
     border-left: 5px solid;
@@ -34,7 +35,16 @@ body{
     margin-top: 10px;
     
 }
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
 
+}
+h3{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;  
+}
 .mission{
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -76,7 +86,7 @@ body{
 .develop{
     background-image: url(Image/illustrator/shape-1.png);
     background-repeat: no-repeat;
-    background-position:45 left;
+    background-position:left;
     background-size: 10%;
 }
 .develop-img img{
@@ -94,9 +104,19 @@ body{
 }
 .global{
     background-image: url(Image/illustrator/shape-1.png);
-    background-position: right;
+    background-position:bottom right;
     background-repeat: no-repeat;
     background-size: 15%;
+}
+.form-item{
+    background-color: rgb(67, 15, 189);
+    width: 95%;
+    height: 40px;
+    color: white;
+}
+.comments{
+    height: 200px;
+    width: 550px;
 }
 .last-part{
     background-color: black;
